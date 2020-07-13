@@ -111,4 +111,4 @@ def index():
     return render_template('index.html', table=dfhtml,graphJSON=graphJSON,figstatic=figstatic)
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0",debug=True, port=8080)
+    app.run(host="9.0.1.7",debug=True, port=8080)
